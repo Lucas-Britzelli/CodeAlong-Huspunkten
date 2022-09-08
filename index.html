@@ -1,56 +1,77 @@
 <!DOCTYPE html>
 <!--Change lang to sv-->
 <html lang="sv">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--SEO, Search Engine Optimization-->
-    <meta name="description" content="Här finner ni ert drömhus">
+    <meta name="description" content="Här finner ni ert drömhus" />
     <!-- end of SEO, Search Engine Optimization-->
-    <link rel="stylesheet" href="stylesheet.css"> <!--link to css-->
+    <link rel="stylesheet" href="stylesheet.css" />
+    <!--link to css-->
     <!--Declare JS source for priority load-->
     <script src="app.js" defer></script>
     <!--Title shown in browser tab-->
     <title>Housepoint</title>
     <!--Above was validated 09:57 08/09/2022-->
-</head>
-<body>
+  </head>
+  <body>
     <!--Navbar (nested)-->
     <nav class="navbar">
-        <!--Company Logo-->
-        <div class="brandtitle">HOUSEPOINT</div>
-        <!--Links for "hamburger bar"-->
-        <!--Phone compat-->
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <!--Desktop compat-->
-        <div class="navbar-links">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="Contact-form">Contact</a></li>
-            </ul>
-        </div>
+      <!--Company Logo-->
+      <div class="brandtitle">HOUSEPOINT</div>
+      <!--Links for "hamburger bar"-->
+      <!--Phone compat-->
+      <a href="#" class="toggle-button">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </a>
+      <!--Desktop compat-->
+      <div class="navbar-links">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="Contact-form">Contact</a></li>
+        </ul>
+      </div>
     </nav>
     <!--Validated 10:15 08/09/2022-->
-    
+
     <!--Hero Section-->
     <section class="hero-image">
-        <div class="hero-text">
-            <h1>YOUR DREAM.</h1>
-            <h1>OUR MISSION.</h1>
-            <h2 id="usp-text">
-                Which is your dream house? <br>
-                A new house on the block, a cottage in the mountains in the skislopes,
-                a summer house in the archipelago or maybe a Attefallshouse for rent?
-            </h2>
-            <button class="btn1" onclick="window.location.href='https://iths.se'">Read more here</button>
-        </div>
-
+      <div class="hero-text">
+        <h1>YOUR DREAM.</h1>
+        <h1>OUR MISSION.</h1>
+        <h2 id="usp-text">
+          Which is your dream house? <br />
+          A new house on the block, a cottage in the mountains in the skislopes,
+          a summer house in the archipelago or maybe a Attefallshouse for rent?
+        </h2>
+        <button class="btn1" onclick="window.location.href='https://iths.se'">
+          Read more here
+        </button>
+      </div>
     </section>
-    <!--Validated 13:37 08/09/2022-->
-</body>
+    <!--Testimonial Section, Grid Area-->
+    <section class="testimonial-grid-container">
+        <div id="comment1"></div>
+        <div id="comment2">
+            <h2>En husleverantör med stark framtidsvision!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae illo necessitatibus, <br>
+                deserunt ea itaque assumenda non obcaecati voluptatem facilis adipisci consectetur dolores nisi aperiam unde error nostrum.
+                <br>Officiis qui velit nobis nemo voluptatibus quasi tenetur commodi. 
+                Quod harum nesciunt nostrum.</p>
+        </div>
+        <div id="comment3">
+            <h2>En husleverantör med stark framtidsvision!</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae illo necessitatibus, <br>
+                deserunt ea itaque assumenda non obcaecati voluptatem facilis adipisci consectetur dolores nisi aperiam unde error nostrum.
+                <br>Officiis qui velit nobis nemo voluptatibus quasi tenetur commodi. 
+                Quod harum nesciunt nostrum.</p>
+        </div>
+        <div id="comment4"></div>
+    </section>
+    <!--Validated 14:21 08/09/2022-->
+  </body>
 </html>
