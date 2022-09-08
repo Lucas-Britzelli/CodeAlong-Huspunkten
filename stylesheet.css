@@ -4,8 +4,8 @@
 /*Description
 1. Root Settings
 2. Body, html settings
-3. Navbar
-4.
+3. Buttons
+4. Navbar
 5.
 6.
 7.
@@ -41,3 +41,88 @@ body, html {
 
 }
     /* Above validated 10:54 08/09/2022*/
+
+    /*3. Buttons*/
+/*Button 1*/
+
+.btn {
+
+
+
+    border: none;
+
+    background-color:var(--six);
+
+    border-radius:8px;
+
+    display:inline-block;
+
+    cursor:pointer;
+
+    color:#ffffff;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    padding:13px 32px;
+
+    text-decoration:none;
+
+    
+
+}
+
+/*Button 2*/
+
+.btn2 {
+
+
+
+    border: none;
+
+    background-color:var(--black);
+
+    border-radius:8px;
+
+    display:inline-block;
+
+    cursor:pointer;
+
+    color:#ffffff;
+
+    font-size:20px;
+
+    font-weight:bold;
+
+    padding:13px 32px;
+
+    text-decoration:none;
+
+    
+
+}
+/*Above Validated 11:02 08/09/2022*/
+
+/*4. Navbar*/
+/*Navbar with flex method*/
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height:8vh;
+    width:100%;
+    position:fixed;
+    align-items: center;
+    margin:auto;
+    background: var(--four);
+    /*Place objects in order/layers*/
+    z-index:999;
+    top:0;
+    left:0;
+    transition: 0.3s ease-in-out;
+}
+
+/*Logo/Title settings*/
+.brand-title {
+    font-size: 1.5rem;
+}
