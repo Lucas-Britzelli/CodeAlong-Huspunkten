@@ -166,3 +166,42 @@ body, html {
     width:30px;
 
 }
+
+/*Creating the bar style*/
+
+.togglebutton .bar {
+    height: 3px;
+    width: 100%;
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
+/*Make the navbar responsive*/
+@media screen and (max-width:400px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .togglebutton {
+        display: flex;
+
+    }
+    .navbar-links {
+        display:none;
+        width:100%;
+    }
+    .navbar-links ul {
+        width:100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+    .navbar-links ul li a {
+        padding: .05rem 1rem;
+    }
+    .navbar-links.active {
+        display: flex;
+    }
+}
