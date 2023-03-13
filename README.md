@@ -1,2 +1,2 @@
 # CodeAlong-Huspunkten
-Första codealong sessionen med Richard
+First CodeAlong session with Richard during class lessons
